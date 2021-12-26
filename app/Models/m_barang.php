@@ -15,4 +15,9 @@ class m_barang extends Model
     {
        return $this->findAll();
     }
+
+    public function getID($id) {
+        $sql = "SELECT id_barang FROM barang WHERE id_barang = $id";
+        return $this->db->query($sql)->getResult();
+    }
 }

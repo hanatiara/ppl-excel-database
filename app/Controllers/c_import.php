@@ -26,25 +26,29 @@ class c_import extends BaseController
 
         $sheet = $spreadsheet->getActiveSheet()->toArray();
 
+        
+
         foreach($sheet as $key => $excel) {
             if($key == 0) {
                 continue;
             }
-            $m_barang->insert([
-                'id_barang' => $excel['0'],
-                'nama_barang' => $excel['1'],
-                'harga' => $excel['2'],
-                'stok' => $excel['3'],
-            ]);
+            $barang = $m_barang->getID($excel['0']);
+            $barang = (int)$barang['0']->id_barang;
+            // dd($barang);
+            if($barang != $excel['0']) {
+                $m_barang->insert([
+                    'id_barang' => $excel['0'],
+                    'nama_barang' => $excel['1'],
+                    'harga' => $excel['2'],
+                    'stok' => $excel['3'],
+                ]);
+            }
         }
         
 
         $data = [
             'data' => $m_barang->getDataBarang(),
         ];
-
-        
-        
 
 		return view('v_barang',$data);
     }

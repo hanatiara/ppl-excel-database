@@ -6,7 +6,7 @@
 <form method="post" action="/c_import/importExcel" enctype="multipart/form-data">
 			<div class="form-group">
 				<label>File Excel</label>
-				<input type="file" name="fileexcel" class="form-control" id="file" required accept=".xls, .xlsx" /></p>
+				<input type="file" name="fileexcel" class="form-control" id="file" required accept=".xls, .xlsx" />
 			</div>
 			<div class="form-group">
 				<button class="btn btn-primary" type="submit">Upload</button>

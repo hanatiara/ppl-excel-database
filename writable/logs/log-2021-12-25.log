@@ -152,3 +152,107 @@ CRITICAL - 2021-12-25 09:07:22 --> Undefined variable $data
 #12 D:\xampp\htdocs\ppl-excel-database\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #13 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
 #14 {main}
+ERROR - 2021-12-25 09:40:22 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2021-12-25 09:40:22 --> Duplicate entry '1' for key 'PRIMARY'
+#0 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\ppl-excel-database\app\Controllers\c_import.php(37): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\c_import->importExcel()
+#9 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_import))
+#10 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ppl-excel-database\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-12-25 12:45:39 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-12-25 12:45:39 --> Duplicate entry '0' for key 'PRIMARY'
+#0 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\ppl-excel-database\app\Controllers\c_import.php(37): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\c_import->importExcel()
+#9 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_import))
+#10 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ppl-excel-database\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-12-25 12:47:16 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-12-25 12:47:16 --> Duplicate entry '0' for key 'PRIMARY'
+#0 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\ppl-excel-database\app\Controllers\c_import.php(37): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\c_import->importExcel()
+#9 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_import))
+#10 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ppl-excel-database\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-12-25 12:47:26 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-12-25 12:47:26 --> Duplicate entry '0' for key 'PRIMARY'
+#0 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\ppl-excel-database\app\Controllers\c_import.php(37): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\c_import->importExcel()
+#9 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_import))
+#10 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ppl-excel-database\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-12-25 12:47:56 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-12-25 12:47:56 --> Duplicate entry '0' for key 'PRIMARY'
+#0 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\ppl-excel-database\app\Controllers\c_import.php(37): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\c_import->importExcel()
+#9 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_import))
+#10 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ppl-excel-database\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-12-25 13:17:48 --> Undefined array key "id_barang"
+#0 D:\xampp\htdocs\ppl-excel-database\app\Controllers\c_import.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\c_import->importExcel()
+#2 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_import))
+#3 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ppl-excel-database\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-12-25 13:20:00 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2021-12-25 13:20:00 --> Duplicate entry '1' for key 'PRIMARY'
+#0 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\ppl-excel-database\app\Controllers\c_import.php(42): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\c_import->importExcel()
+#9 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_import))
+#10 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ppl-excel-database\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ppl-excel-database\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
